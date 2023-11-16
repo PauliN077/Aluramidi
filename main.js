@@ -31,11 +31,13 @@ document.querySelector('.tecla_tom').onclick = tocaSomTom;
 
 const listadeteclas = document.querySelectorAll('.tecla'); 
 
-listadeteclas ['0'].onclick = tocaSomPom while (none) {
+
+let contador = 0;
+while (contador < listadeteclas.lenght ) {listadeteclas ['0'] .onclick = tocaSomPom;
+contador = contador +1;
+console.log(contador);
     
 }
-
-
 
 
 
